@@ -13,9 +13,5 @@ def main():
     Palindromo("Ana")
     Palindromo("casa")
 
-
-
-
-
 if __name__=="__main__":
     main()
