@@ -8,6 +8,7 @@ def Palindromo(palavra):
         print("É palíndromo")
     else:
         print("Não é palíndromo")
+
 def main():
     Palindromo("Ana")
     Palindromo("casa")
