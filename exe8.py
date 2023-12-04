@@ -1,4 +1,4 @@
-def MCD(n1,n2):
+def MDC(n1,n2):
     if n1<n2:
         menor=n1
     else:
@@ -9,8 +9,8 @@ def MCD(n1,n2):
             return
         
 def main():
-    MCD(10,5)
-    MCD(10,3)
+    MDC(10,5)
+    MDC(10,3)
 
 if __name__=="__main__":
     main()
