@@ -12,7 +12,16 @@ def Codifica(texto):
     return codificado
 
 def Descodifica(texto):
-    pass
+    global alfabeto, codigo
+    descodificado=""
+    texto=texto.lower()
+    for letra in texto:
+        if letra in codigo:
+            posicao=codigo.index(letra)
+            descodificado=descodificado+alfabeto[posicao]
+        else:
+            descodificado=deacodificado+letra
+    return descodificado
 
 print(Codifica("bebe"))
-print(Codifica("ola mundo"))
+print(Codifica("cfcf"))
