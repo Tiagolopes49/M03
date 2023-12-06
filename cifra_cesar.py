@@ -24,4 +24,4 @@ def Descodifica(texto):
     return descodificado
 
 print(Codifica("bebe"))
-print(Codifica("cfcf"))
+print(Descodifica("cfcf"))
