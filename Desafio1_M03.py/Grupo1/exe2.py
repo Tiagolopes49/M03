@@ -5,4 +5,4 @@ def Media():
         #somar o valor
         soma=soma+n
     media=soma/5
-    pritn(media)
+    print(media)

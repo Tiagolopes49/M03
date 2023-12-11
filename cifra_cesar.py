@@ -20,7 +20,7 @@ def Descodifica(texto):
             posicao=codigo.index(letra)
             descodificado=descodificado+alfabeto[posicao]
         else:
-            descodificado=deacodificado+letra
+            descodificado=descodificado+letra
     return descodificado
 
 print(Codifica("bebe"))
