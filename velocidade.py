@@ -1,3 +1,5 @@
+#Tiago Lopes Nº28 10ºT
+#programa que queria um menu que calcula a velocidade
 def mostrar_formula():
     print("V=V0+a*t")
 
