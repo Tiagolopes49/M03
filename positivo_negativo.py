@@ -1,5 +1,5 @@
 #Tiago Lopes Nº28 10ºT
-#programge que mostra se um numero é positivo ou negativo
+#o programa que mostra se um numero é positivo ou negativo
 def positivo_negativo(n):
     if n>=0:
         print("p")

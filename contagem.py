@@ -1,5 +1,5 @@
 #Tiago Lopes Nº28 10ºT
-#programa que mostra os numeros de 1 a 5 na forma crescente e decrescente
+#o programa que mostra os numeros de 1 a 5 na forma crescente e decrescente
 def crescente(n):
     for i in range(1,n+1,1):
         print(i)
